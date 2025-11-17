@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  let now = new Date();
+  let birth = new Date(2008, 5, 1); 
+  let miliseconds = now-birth;
+
+  let years = now.getFullYear() - birth.getFullYear();
+  let months = now.getMonth() - birth.getMonth();
+  let days = now.getDay() - birth.getDay();
+
+  console.log(years + " years and ")
+  console.log(months + " months and")
+  console.log(days + " day old")
+    </script>
+</body>
+</html>
